@@ -1,14 +1,14 @@
 {
-  "name": "uncorrupt",
+  "name": "uncorrupter-p",
   "version": "0.0.1",
   "description": "Command line application which outputs an uncorrupted version of an input image file(Pixton technical test #2)",
   "main": "bin/index.js",
   "bin": {
-    "uncorrupt": "./bin/index.js"
+    "uncorrupter-p": "./bin/index.js"
   },
   "scripts": {
     "start": "node src/index.js",
-    "build": "node tsc",
+    "build": "tsc",
     "watch": "tsc --watch -p ."
   },
   "author": "Kojo Odapagyan",
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.0.5",
+    "@types/sharp": "^0.30.4",
     "ts-node": "^10.9.1",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
